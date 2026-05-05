@@ -7,7 +7,8 @@ To understand OOP, we first examine procedural programming limitations. In this 
 
 Example: Student management system using procedural approach:
 
-```student1_name = "Eshmat"
+```
+student1_name = "Eshmat"
 student1_id = "2024001"
 student1_grades = [85, 90, 78]
 
@@ -23,13 +24,14 @@ def display_student(name, student_id, grades):
     print(f"Student: {name}, ID: {student_id}, Average: {avg}")
 
 display_student(student1_name, student1_id, student1_grades)
-display_student(student2_name, student2_id, student2_grades)```
+display_student(student2_name, student2_id, student2_grades)
+```
 
 This approach works for small scripts but becomes unmanageable as complexity grows. Managing hundreds of students creates disconnected variables.
 
 The Dictionary Approach
 Dictionaries can group related data:
-
+```
 student1 = {
     "name": "Eshmat",
     "id": "2024001",
@@ -51,7 +53,7 @@ def display_student(student):
 
 display_student(student1)
 display_student(student2)
-
+```
 However, data and functions remain separate. This introduces risks:
 
 Data Integrity: Dictionaries don’t enforce structure (e.g., missing keys, typos).
