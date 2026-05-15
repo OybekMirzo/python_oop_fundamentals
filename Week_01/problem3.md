@@ -4,40 +4,40 @@ Create a ShoppingCart class that manages a collection of items for an online sto
 Requirements:
 
 1. Define a class ShoppingCart with these class variables:
-*.store_name = “Online Bazaar”
-*.tax_rate = 0.08 (8% tax)
+store_name = “Online Bazaar”
+tax_rate = 0.08 (8% tax)
 
 2. Define __init__ with parameter customer_name:
-*.Store as instance variable: self.customer_name
-*.Initialize self.items as an empty list to hold cart items
-*.Each item in the list should be a dictionary with keys: "name" and "price"
+Store as instance variable: self.customer_name
+Initialize self.items as an empty list to hold cart items
+Each item in the list should be a dictionary with keys: "name" and "price"
 
 3. Create a method add_item(self, item_name, price):
-*.Append a dictionary {"name": item_name, "price": price} to self.items
-*.Print: "Added {item_name} (${price}) to cart"
-*.If price <= 0, print: "Invalid price. Must be greater than 0" and do not add the item
+Append a dictionary {"name": item_name, "price": price} to self.items
+Print: "Added {item_name} (${price}) to cart"
+If price <= 0, print: "Invalid price. Must be greater than 0" and do not add the item
 
 4. Create a method remove_item(self, item_name):
-*.Find and remove the first item with matching name from self.items
-*.Print: "Removed {item_name} from cart" if found
-*.Print: "Item '{item_name}' not found in cart" if not found
+Find and remove the first item with matching name from self.items
+Print: "Removed {item_name} from cart" if found
+Print: "Item '{item_name}' not found in cart" if not found
 
 5. Create a method get_subtotal(self) that returns the sum of all item prices
 
 6. Create a method get_total(self) that returns subtotal + (subtotal × tax_rate)
 
 7. Create a method display_cart(self) that prints:
-*."Cart for {customer_name} at {store_name}:"
-*.Then each item on a new line: " - {item_name}: ${price}"
-*.Then: "Subtotal: ${subtotal}"
-*.Then: "Total (with tax): ${total}"
+"Cart for {customer_name} at {store_name}:"
+Then each item on a new line: " - {item_name}: ${price}"
+Then: "Subtotal: ${subtotal}"
+Then: "Total (with tax): ${total}"
 
 8. Test with:
-*.Cart for “Dilshod”
-*.Add: “Laptop” ($999.99), “Mouse” ($25.50), “Keyboard” ($75.00)
-*.Remove: “Mouse”
-*.Display cart
-*.Print subtotal and total separately
+Cart for “Dilshod”
+Add: “Laptop” ($999.99), “Mouse” ($25.50), “Keyboard” ($75.00)
+Remove: “Mouse”
+Display cart
+Print subtotal and total separately
 
 Input
 ```
