@@ -14,10 +14,12 @@ Requirements:
 Input
 ```
 First song: "Yesterday", "The Beatles", 2.5
-Second song: "Bohemian Rhapsody", "Queen", 6.0```
+Second song: "Bohemian Rhapsody", "Queen", 6.0
+```
 
 Expected Output
 ```
 Title: Yesterday, Artist: The Beatles, Duration: 2.5 min
 Title: Bohemian Rhapsody, Artist: Queen, Duration: 6.0 min
-360```
+360
+```
