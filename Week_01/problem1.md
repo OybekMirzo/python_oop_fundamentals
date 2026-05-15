@@ -12,12 +12,12 @@ Requirements:
 7. Print the duration in seconds for the second song using get_duration_seconds()
 
 Input
-
-```First song: "Yesterday", "The Beatles", 2.5
+```
+First song: "Yesterday", "The Beatles", 2.5
 Second song: "Bohemian Rhapsody", "Queen", 6.0```
 
 Expected Output
-
-```Title: Yesterday, Artist: The Beatles, Duration: 2.5 min
+```
+Title: Yesterday, Artist: The Beatles, Duration: 2.5 min
 Title: Bohemian Rhapsody, Artist: Queen, Duration: 6.0 min
 360```
