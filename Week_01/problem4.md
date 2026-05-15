@@ -5,30 +5,30 @@ Requirements:
 
 Design a Thermostat class with the following capabilities:
 
-Class-level Configuration:
+1. Class-level Configuration:
 
 Define temperature safety limits (min_temp = 15.0°C, max_temp = 30.0°C) as class variables
 Track how many thermostats have been created using device_count
 
-Instance Management:
+2. Instance Management:
 
 Each thermostat should have a location identifier and track its current_temp
 Maintain a history of all temperature readings in a readings list
 When creating a thermostat, validate the initial_temp against safety limits. If the initial temperature is out of range, set it to min_temp
 
-Core Methods:
+3. Core Methods:
 
 set_temperature(new_temp) - Attempt to change temperature with validation (reject and keep current temperature if out of range)
 get_average_temp() - Calculate the average of all historical readings
 display_status() - Show current state including location, temperature, reading count, and average
 is_comfortable() - Determine if current temperature is in a comfortable range (20-25°C)
 
-Test Scenario: Create two thermostats:
+4. Test Scenario: Create two thermostats:
 
 One for “Living Room” starting at 22.0°C
 One for “Garage” starting at 10.0°C (out of safe range)
 
-Demonstrate:
+5. Demonstrate:
 
 Adjusting the Living Room to 26.5°C
 Attempting to set Living Room to 35.0°C (should be rejected)
