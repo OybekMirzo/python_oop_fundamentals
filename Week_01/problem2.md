@@ -31,9 +31,11 @@ Withdraw 100 from Vali’s account (should fail - below minimum)
 Print total accounts count
 
 Expected Output
+```
 Owner: Ali, Balance: 100, Bank: Urgench Bank
 Deposited 50. New balance: 150
 Withdrew 80. New balance: 70
 Owner: Vali, Balance: 50, Bank: Urgench Bank
 Insufficient funds or below minimum balance
 Total accounts created: 2
+```
